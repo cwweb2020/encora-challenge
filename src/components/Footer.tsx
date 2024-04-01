@@ -3,7 +3,7 @@ import { IoPersonSharp } from "react-icons/io5";
 import fire from "../img/icons/footer-icons/fire.png";
 import comment from "../img/icons/footer-icons/comment.png";
 
-const Footer: React.FC = () => {
+const Footer = () => {
   return (
     <>
       <footer className="footer">

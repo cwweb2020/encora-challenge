@@ -1,23 +1,23 @@
-import React from "react";
-import "./styles.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import Liked from "./pages/Liked";
 import Footer from "./components/Footer";
+import "./styles.css";
+import ContentProvider from "./context/ContentProvider";
 
 const App = () => {
   return (
-    <>
-      <Header />
-      <Router>
+    <Router>
+      <ContentProvider>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/liked" element={<Liked />} />
         </Routes>
-      </Router>
-      <Footer />
-    </>
+        <Footer />
+      </ContentProvider>
+    </Router>
   );
 };
 

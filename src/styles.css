@@ -15,9 +15,16 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
 /* header styles */
 .header {
   border-bottom: 2px solid #00000024;
+  position: relative;
 }
 
 .header__wrapper {
@@ -63,7 +70,6 @@ body {
 /* card */
 
 .image__container {
-  height: 60vh;
   overflow: hidden;
   background: #90ee9066;
 }
@@ -127,4 +133,64 @@ body {
 
 .footer__img-fire {
   width: 20px;
+}
+
+/* liked */
+.liked {
+  min-height: 83vh;
+}
+
+.liked__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  padding: 0 8px;
+}
+
+.liked__title {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 20px 0;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.liked__img {
+  width: 300px;
+}
+
+/* menu */
+
+.menu {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 31px 36px 22px 23px;
+  display: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: aliceblue;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+a:first-child {
+  padding-bottom: 20px;
+}
+.active {
+  display: flex;
+}
+
+.loading {
+  min-height: 68vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
 }

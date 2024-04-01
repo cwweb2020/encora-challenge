@@ -1,11 +1,10 @@
-import React from "react";
-import Card from "../components/Card";
+import ContentContainer from "../components/ContentContainer";
 import Rating from "../components/Rating";
 
 const Home = () => {
   return (
     <>
-      <Card />
+      <ContentContainer />
       <Rating />
     </>
   );

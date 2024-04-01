@@ -1,22 +1,31 @@
-import React from "react";
-import dog from "../img/dogs/12.jpg";
+import { useLocation } from "react-router-dom";
+import { getContentImgPath } from "../helper";
+import { IContent } from "../interfaces/content";
+// import dog from "../img/dogs/12.jpg";
 
-const Card: React.FC = () => {
+type Props = {
+  contentInfo: IContent;
+};
+
+const Card = ({ contentInfo }: Props) => {
+  const location = useLocation();
+  const dinamycHeight = location.pathname === "/liked" ? "22vh" : "60vh";
   return (
-    <>
-      <article className="card">
-        <div className="image__container">
-          <img className="card__img" src={dog} alt="Dog" />
-        </div>
+    <article className="card">
+      {/* <img className="card__img" src={dog} alt="Dog" /> */}
+      <div style={{ height: dinamycHeight }} className="image__container">
+        <img
+          className="card__img"
+          src={getContentImgPath(contentInfo.img)}
+          alt="Dog"
+        />
+      </div>
 
-        <footer className="card__footer">
-          <h3 className="card__footer-title">About me</h3>
-          <p className="card__footer-description">
-            I love playing fetch in the park.
-          </p>
-        </footer>
-      </article>
-    </>
+      <footer className="card__footer">
+        <h3 className="card__footer-title">About me</h3>
+        <p className="card__footer-description">{contentInfo.description}</p>
+      </footer>
+    </article>
   );
 };
 

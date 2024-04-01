@@ -1,57 +1,79 @@
 [
   {
+    "id": "1",
     "name": "Fluffy",
     "img": "1.jpg",
-    "description": "I like to chew the sofa."
+    "description": "I like to chew the sofa.",
+    "liked": false
   },
   {
+    "id": "2",
     "name": "Buddy",
     "img": "2.jpg",
-    "description": "I love playing fetch in the park."
+    "description": "I love playing fetch in the park.",
+    "liked": false
   },
   {
+    "id": "3",
     "name": "Max",
     "img": "3.jpg",
-    "description": "I'm a loyal companion and love belly rubs."
+    "description": "I'm a loyal companion and love belly rubs.",
+    "liked": false
   },
   {
+    "id": "4",
     "name": "Charlie",
     "img": "4.jpg",
-    "description": "I'm always up for an adventure!"
+    "description": "I'm always up for an adventure!",
+    "liked": false
   },
   {
+    "id": "5",
     "name": "Lucy",
     "img": "5.jpg",
-    "description": "I'm the queen of the house and love attention."
+    "description": "I'm the queen of the house and love attention.",
+    "liked": false
   },
   {
+    "id": "6",
     "name": "Bailey",
     "img": "6.jpg",
-    "description": "I'm a cuddle bug and enjoy lazy days on the couch."
+    "description": "I'm a cuddle bug and enjoy lazy days on the couch.",
+    "liked": false
   },
   {
+    "id": "7",
     "name": "Cooper",
     "img": "7.jpg",
-    "description": "I'm full of energy and love going for walks."
+    "description": "I'm full of energy and love going for walks.",
+    "liked": false
   },
   {
+    "id": "8",
     "name": "Rocky",
     "img": "8.jpg",
-    "description": "I'm always ready to protect my family."
+    "description": "I'm always ready to protect my family.",
+    "liked": false
   },
   {
+    "id": "9",
     "name": "Daisy",
     "img": "9.jpg",
-    "description": "I'm sweet and playful, and I adore treats."
+    "description": "I'm sweet and playful, and I adore treats.",
+    "liked": false
   },
   {
+    "id": "10",
     "name": "Luna",
     "img": "10.jpg",
-    "description": "I'm a little bit mischievous but incredibly lovable."
+    "description": "I'm a little bit mischievous but incredibly lovable.",
+    "liked": false
   },
   {
+    "id": "11",
     "name": "Bear",
     "img": "11.jpg",
-    "description": "I'm a big softy and love snuggling up with my humans."
+    "description": "I'm a big softy and love snuggling up with my humans.",
+    "liked": false
   }
 ]

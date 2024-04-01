@@ -2,8 +2,19 @@ import React from "react";
 import { IoMdSettings } from "react-icons/io";
 import { MdOutlineMenu } from "react-icons/md";
 import doggy from "../img/icons/doggy.png";
+import { Link } from "react-router-dom";
 
-const Header: React.FC = () => {
+const Header = () => {
+  const [isOpen, setIsOpen] = React.useState(false);
+
+  const handleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleCloseMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <>
       <section className="header">
@@ -16,8 +27,18 @@ const Header: React.FC = () => {
             <h2 className="logo__title">doggies</h2>
           </div>
           <div className="container__menu">
-            <MdOutlineMenu />
+            <button onClick={handleMenu}>
+              <MdOutlineMenu />
+            </button>
           </div>
+        </div>
+        <div className={`menu ${isOpen ? "active" : ""} `}>
+          <Link to={"/liked"} onClick={handleCloseMenu}>
+            Liked items
+          </Link>
+          <Link to={"/"} onClick={handleCloseMenu}>
+            All dogs
+          </Link>
         </div>
       </section>
     </>
