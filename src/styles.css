@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fuente-montserrat: "Montserrat Alternates", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* header styles */
+.header {
+  border-bottom: 2px solid #00000024;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 7vh;
+  padding: 0 20px;
+}
+
+.container__settings {
+  svg {
+    font-size: 28px;
+    cursor: pointer;
+    color: #000000a3;
+  }
+}
+
+.container__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo__img {
+  width: 2em;
+  height: auto;
+}
+.logo__title {
+  color: #ff4458;
+  font-size: 1.75em;
+  font-family: var(--fuente-montserrat);
+}
+
+.container__menu {
+  svg {
+    font-size: 28px;
+    cursor: pointer;
+    color: #000000a3;
+  }
+}
+
+/* card */
+
+.image__container {
+  height: 60vh;
+  overflow: hidden;
+  background: #90ee9066;
+}
+.card__img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.card__footer {
+  padding: 15px;
+  text-align: center;
+}
+
+.card__footer-title {
+  font-size: 1.5em;
+}
+
+.card__footer-description {
+  padding: 10px;
+}
+
+/* rating */
+.rating {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 30px;
+  background: #90ee9066;
+}
+.rating__img {
+  cursor: pointer;
+}
+.rating__title {
+  font-size: 1.75em;
+}
+
+.rating__tooltip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ------- */
+
+/* footer */
+.footer {
+  height: 8vh;
+  padding-bottom: 10px;
+}
+
+.footer__wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  svg {
+    font-size: 20px;
+  }
+}
+
+.footer__img-fire {
+  width: 20px;
+}

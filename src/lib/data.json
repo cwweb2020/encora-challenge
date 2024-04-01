@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Fluffy",
+    "img": "1.jpg",
+    "description": "I like to chew the sofa."
+  },
+  {
+    "name": "Buddy",
+    "img": "2.jpg",
+    "description": "I love playing fetch in the park."
+  },
+  {
+    "name": "Max",
+    "img": "3.jpg",
+    "description": "I'm a loyal companion and love belly rubs."
+  },
+  {
+    "name": "Charlie",
+    "img": "4.jpg",
+    "description": "I'm always up for an adventure!"
+  },
+  {
+    "name": "Lucy",
+    "img": "5.jpg",
+    "description": "I'm the queen of the house and love attention."
+  },
+  {
+    "name": "Bailey",
+    "img": "6.jpg",
+    "description": "I'm a cuddle bug and enjoy lazy days on the couch."
+  },
+  {
+    "name": "Cooper",
+    "img": "7.jpg",
+    "description": "I'm full of energy and love going for walks."
+  },
+  {
+    "name": "Rocky",
+    "img": "8.jpg",
+    "description": "I'm always ready to protect my family."
+  },
+  {
+    "name": "Daisy",
+    "img": "9.jpg",
+    "description": "I'm sweet and playful, and I adore treats."
+  },
+  {
+    "name": "Luna",
+    "img": "10.jpg",
+    "description": "I'm a little bit mischievous but incredibly lovable."
+  },
+  {
+    "name": "Bear",
+    "img": "11.jpg",
+    "description": "I'm a big softy and love snuggling up with my humans."
+  }
+]
